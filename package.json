@@ -1,0 +1,24 @@
+{
+  "name": "frith",
+  "version": "0.1.0",
+  "repository": "HotelQuickly/frith",
+  "homepage": "https://github.com/HotelQuickly/frith",
+  "bugs": "https://github.com/HotelQuickly/frith/issues",
+  "description": "Simply simple queue / worker utility",
+  "main": "lib/frith.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rabbit"
+  ],
+  "engines": {
+    "node": ">= 0.10.x"
+  },
+  "author": "Seth Price <seth.price@hotelquickly.com>",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.3.2",
+    "bluebird": "^2.9.30"
+  }
+}
