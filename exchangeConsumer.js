@@ -36,7 +36,7 @@ if ( cluster.isMaster && process.env.CLUSTER_MODE) {
 
     function onConnected() {
         console.log('connect')
-        let queueOptions = { durable: false, msgTtl: 0 }
+        let queueOptions = { durable: false, msgTtl: 0, autoDelete: true }
         frith.create(qName,queueOptions)
             .then(onJoin)
     }
